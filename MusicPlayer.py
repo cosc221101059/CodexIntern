@@ -13,7 +13,7 @@ var.set("Select the song to play")
 os.chdir(askdirectory())
 songlist = os.listdir()
 
-playing = tkinter.Listbox(mplayer,font="Helvetica 12 bold",width=28,bg="black",fg="white",selectmode=tkinter.SINGLE)
+playing = tkinter.Listbox(mplayer,font="Sans 12 bold",width=28,bg="black",fg="white",selectmode=tkinter.SINGLE)
 
 for item in songlist:
     playing.insert(0,item)
