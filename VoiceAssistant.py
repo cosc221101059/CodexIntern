@@ -41,7 +41,7 @@ def handle_command(command):
         speak("Sorry, I didn't understand that.")
 
 if __name__ == "__main__":
-    speak("Hasaan. I'm your personal assistant. How can I assist you?")
+    speak("Hasaan. I'm CodexCue. How can I assist you?")
     while True:
         command = recognize_speech().lower()
         print("You said:", command)
